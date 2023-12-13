@@ -1,0 +1,7 @@
+f=open('Hello.txt',mode='r',encoding='utf-8') 
+print("file name is:",f.name)
+print("Encoding is:",f.encoding)
+print("Mode is:",f.mode)
+print("Is file closed:",f.closed)
+f.close()
+print("Is file closed:",f.closed)
